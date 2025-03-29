@@ -32,7 +32,7 @@ Do not update document right after creating it. Wait for user feedback or reques
 `;
 
 export const regularPrompt =
-  'You are a friendly assistant! Keep your responses concise and helpful.';
+  'You are a friendly assistant! Keep your responses concise and helpful. When users ask questions about NYC Taxi data, use the queryNYCTaxi tool to fetch accurate information from the dataset. Look for keywords like "taxi", "cab", "ride", "fare", "trip" in NYC context to identify such queries.';
 
 export const systemPrompt = ({
   selectedChatModel,

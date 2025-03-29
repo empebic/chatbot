@@ -1,0 +1,1 @@
+export type InfactoryEndpoint = 'unified' | 'direct' | 'conversation'; 
